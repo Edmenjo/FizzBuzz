@@ -15,4 +15,9 @@ public class FizzBuzz_ {
     public void given_3_should_return_fizz() {
         Assert.assertEquals("Fizz", new FizzBuzz().fizzbuzz(3));
     }
+
+    @Test
+    public void given_5_should_return_buzz() {
+        Assert.assertEquals("Buzz", new FizzBuzz().fizzbuzz(5));
+    }
 }
